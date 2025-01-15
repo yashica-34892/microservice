@@ -23,7 +23,7 @@ Healthcare Management using microservices and spring-boot.
   "address": "123 Main St"
 }
 5. Create an appointment by the url:
-  http://localhost:8082/appointments
+ http://localhost:8082/appointments
 
   and in the body provide the details:
   {
@@ -44,7 +44,8 @@ Healthcare Management using microservices and spring-boot.
     "status": "Unpaid"
   }
   (Make sure the method is POST)
-9. After the bill is paid, you can change status to Paid by using PUT method and using the url:
+
+10. After the bill is paid, you can change status to Paid by using PUT method and using the url:
    http://localhost:8083/bills/1?status=Paid
   
 
